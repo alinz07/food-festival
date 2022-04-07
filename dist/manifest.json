@@ -1,0 +1,24 @@
+{
+  "name": "Food Event",
+  "short_name": "Foodies",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "../index.html",
+  "description": "An app that allow syou to view upcoming food events.",
+  "background_color": "#01579b",
+  "theme_color": "#ffffff",
+  "income": [
+    {
+      "src": "C:\\Users\\gener\\Desktop\\projects\\food-festival\\assets\\img\\icons\\icon-512x512.png",
+      "sizes": [
+        96,
+        128,
+        192,
+        256,
+        384,
+        512
+      ],
+      "destination": "assets\\icons"
+    }
+  ]
+}
