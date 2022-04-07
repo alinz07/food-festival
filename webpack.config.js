@@ -17,8 +17,9 @@ module.exports = {
         tickets: "./assets/js/tickets.js",
     },
     output: {
-        path: __dirname + "/dist",
+        path: `${__dirname}/dist`,
         filename: "[name].bundle.js",
+        publicPath: "",
     },
     module: {
         rules: [
@@ -50,7 +51,7 @@ module.exports = {
             jQuery: "jquery",
         }),
         new BundleAnalyzerPlugin({
-            analyzerMode: "static", //the report outputs to an html file in the dist folder
+            analyzerMode: "disabled", //the report outputs to an html file in the dist folder
         }),
         new WebpackPwaManifest({
             name: "Food Event",
